@@ -1,0 +1,103 @@
+body {
+    background: rgb(252, 194, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.resume-container {
+    display: flex;
+    background-color:rgb(252, 239, 199);
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(0, 0 , 0 ,0.1);
+    
+}
+
+.left-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-right: 10px solid rgb(253, 76, 7);
+    box-sizing: border-box;
+
+}
+
+
+.profile {
+    width: 50%;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 3px solid rgb(253, 76, 7);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 2%;
+    margin: 20px 0 10 px;
+    color: orangered;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: black;
+
+}
+
+ul {
+    list-style-type: disc;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #fcb05a;
+}
+
+/*Responsive adjustments*/
+@media screen and (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: 100%;
+        border-right: none;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+}
